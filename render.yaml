@@ -5,5 +5,5 @@ services:
     repo: https://github.com/Bandaheali/Sarkar-MD  # 🔁 Yahan apna repo link lagayein
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: python main.py
     autoDeploy: true
