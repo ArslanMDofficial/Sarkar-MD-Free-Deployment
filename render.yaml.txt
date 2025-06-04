@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sarkar-md-bot
+    env: python
+    repo: https://github.com/Bandaheali/Sarkar-MD  # 🔁 Yahan apna repo link lagayein
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    autoDeploy: true
